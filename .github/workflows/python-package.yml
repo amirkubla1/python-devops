@@ -34,9 +34,9 @@ jobs:
       run: docker run hello-world
       
     - name: Push to Docker-hub
-      uses: docker/build-push-action@v2.7.0
+      uses: docker/build-push-action@v1
       with:
-        username: amir5558
+        username: amir555
         password: kubla555
         repository: amir555/devops_with_python_demo
         tag_with_ref: true
