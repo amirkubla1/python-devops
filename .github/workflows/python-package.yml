@@ -38,6 +38,6 @@ jobs:
       with:
         username: amir555
         password: kubla555
-        repository: docker push amir555/devops_with_python_demo
+        repository: amir555/devops_with_python_demo
         tag_with_ref: true
       
